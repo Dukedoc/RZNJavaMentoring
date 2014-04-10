@@ -1,0 +1,16 @@
+<archetype>
+  <id>onlinemarketplace</id>
+  <sources>
+    <source>src/main/DAOFactory.java</source>  </sources>
+  
+  <testSources>
+    <source>src/test/DAOFactoryTest.java</source>
+  </testSources>
+  <resources>		
+		<resource>WebContent/WEB-INF/web.xml</resource>
+		<resource>WebContent/css/styles.css</resource>
+		<resource>WebContent/js/scripts.js</resource>
+		<resource>WebContent/META-INF/MANIFEST.MF</resource>
+		<resource>WebContent/index.jspx</resource>
+  </resources>
+</archetype>
