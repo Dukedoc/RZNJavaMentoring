@@ -1,18 +1,15 @@
-<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
-  <id>quickstart</id>
-  <sources>
-    <source>src/main/App.java</source>
+<archetype>
+  <id>archetype</id>
+ <sources>    
+    <source>src/main/java/Dispatcher.java</source>
   </sources>
-  <testSources>
-    <source>src/test/AppTest.java</source>
-  </testSources>
-  <resources>
-	<resource>WebContent/index.jspx</resource>
-	<resource>WebContent/WEB-INF/web.xml</resource>
-	<resource>WebContent/META-INF/context.xml</resource>
-	<resource>WebContent/META-INF/MANIFEST.MF</resource>
-	<resource>WebContent/js/scripts.js</resource>	
-	<resource>WebContent/css/styles.css</resource>	
+  <resources>  	  	  	
+  	<resource>WebContent/WEB-INF/web.xml</resource>  	
+  	<resource>WebContent/WEB-INF/index.jspx</resource>	  	
+  	<resource>WebContent/WEB-INF/jspf/title.jsp</resource>	
+  	<resource>WebContent/css/styles.css</resource>	
+  	<resource>WebContent/js/scripts.js</resource>	
+  	<resource>WebContent/META-INF/context.xml</resource>	
+  	<resource>WebContent/META-INF/MANIFEST.MF</resource>		
   </resources>
 </archetype>
