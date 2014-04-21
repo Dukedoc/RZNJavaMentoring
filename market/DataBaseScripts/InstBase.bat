@@ -1,1 +1,0 @@
-SQLPLUS marketplace/marketplace@127.0.0.1 @InstBase.sql
